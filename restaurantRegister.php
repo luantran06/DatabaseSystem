@@ -7,7 +7,7 @@ if (isset($_SESSION['email'])) {
 }
 
 if ($authenticated) {
-    header("Location: /index.php");
+    header("Location: index.php");
     exit;
 }
 
