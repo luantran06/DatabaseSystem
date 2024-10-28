@@ -87,7 +87,7 @@ if (isset($_SESSION['email'])) {
         <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/profile.php">Profile</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a href="/logout.php" class="dropdown-item" >Logout</a></li>
+                <li><a href="logout.php" class="dropdown-item" >Logout</a></li>
         </ul>
         </li>
             
