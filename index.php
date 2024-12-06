@@ -157,11 +157,9 @@ if (isset($_SESSION['email'])) {
           </div>
 
         </div>
+        
       </section>
-
-
-
-
+ 
 
       <!-- 
         - #FEATURED POST
@@ -169,7 +167,13 @@ if (isset($_SESSION['email'])) {
 
       <section class="section featured" aria-label="featured post">
         <div class="container">
-
+                                                <!-- Inside the hero section -->
+        <div class="wrapper">
+    <form method="POST" action="recommendations.php" >
+    <input type="hidden" name="user_id" value="<?php echo $current_user_id; ?>"> <!-- Dynamically set the logged-in user ID -->
+    <button type="submit" class="card-tag" >Recommend Restaurants</button>
+</form>
+</div>
           <p class="section-subtitle">
             Get started with our <strong class="strong">best restaurants</strong>
           </p>
@@ -370,16 +374,14 @@ if (isset($_SESSION['email'])) {
                 </div>
 
               </div>
+
             </li>
 
           </ul>
-
+    
         </div>
+ 
       </section>
-
-
-
-
 
 
   <!-- 
