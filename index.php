@@ -85,9 +85,9 @@ if (isset($_SESSION['email'])) {
               <?= htmlspecialchars($_SESSION['first_name']) ?>
             </a>
         <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/profile.php">Profile</a></li>
+                <li><a class="dropdown-item" href="./profile.php">Profile</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a href="logout.php" class="dropdown-item" >Logout</a></li>
+                <li><a class="dropdown-item" href="./logout.php" >Logout</a></li>
         </ul>
         </li>
             
